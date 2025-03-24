@@ -109,8 +109,3 @@ window.addEventListener('scroll', () => {
         hero.style.backgroundPosition = `50% ${scrolled * 0.5}px`;
     }
 });
-
-document.querySelectorAll('.skill-progress').forEach(el => {
-    let progress = el.getAttribute('data-progress'); 
-    el.style.width = progress + '%';
-});
